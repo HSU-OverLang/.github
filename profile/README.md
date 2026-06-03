@@ -1,4 +1,4 @@
-# OverLang
+<h1 align="center">OverLang</h1>
 > 영상 속 정보의 공백을 해소하고, 시청 경험을 학습으로 연결하는 **AI 기반 영상 번역 및 학습** 웹플랫폼입니다.
 
 ![OverLang Service Overview](./images/overlang-service-overview.png)
