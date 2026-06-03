@@ -1,10 +1,16 @@
 # OverLang
 영상 속 정보의 공백을 해소하고, 시청 경험을 학습으로 연결하는 AI 기반 영상 번역 및 학습 웹플랫폼입니다.
 
+## Key Features
+- 🎙️ 영상 속 음성을 자막으로 변환하고 다국어 번역 제공
+- 📝 영상 화면의 텍스트(간판, 자막 등)를 추출하여 번역 제공
+- 🔗 STT와 OCR 결과를 통합하여 보다 완전한 영상 이해 지원
+- 📚 핵심 단어, 주요 표현, 영상 요약 등 학습 콘텐츠 자동 생성
+- 💡 문맥 기반 단어 설명 및 표현 학습 기능 제공
+- ⚡ Redis Queue 기반 비동기 AI 영상 분석 처리
+
 ## System Architecture
 ![System Architecture](./images/architecture.png)
-
-## Key F
 
 ## Tech Stack
 ### Frontend
