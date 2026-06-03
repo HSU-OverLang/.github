@@ -22,6 +22,45 @@ OverLang은 단순히 번역 결과만 제공하지 않고, 영상 내용을 기
 ### 3. 실제 서비스 흐름을 고려한 구조
 영상 분석은 시간이 오래 걸릴 수 있기 때문에 Redis Queue 기반 비동기 처리 구조를 적용했습니다. Frontend, Backend, AI Server를 분리하여 AI 분석 작업을 독립적으로 처리하고, 향후 OCR 품질 개선이나 학습 기능 확장에도 유연하게 대응할 수 있도록 설계했습니다.
 
+## 🖥️ Service Preview
+<table>
+  <tr>
+    <td align="center">
+      <img src="./images/main.png" width="300">
+    </td>
+    <td align="center">
+      <img src="./images/upload.png" width="300">
+    </td>
+    <td align="center">
+      <img src="./images/dashboard.png" width="300">
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center"><b>메인 페이지</b></td>
+    <td align="center"><b>업로드 페이지</b></td>
+    <td align="center"><b>대시보드</b></td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="./images/translate.png" width="300">
+    </td>
+    <td align="center">
+      <img src="./images/savedword.png" width="300">
+    </td>
+    <td align="center">
+      <img src="./images/mypage.png" width="300">
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center"><b>번역 & 학습 페이지</b></td>
+    <td align="center"><b>학습 노트</b></td>
+    <td align="center"><b>마이페이지</b></td>
+  </tr>
+</table>
+
 ## 🏗️ System Architecture
 ![System Architecture](./images/architecture.png)
 
@@ -60,21 +99,21 @@ OverLang은 단순히 번역 결과만 제공하지 않고, 영상 내용을 기
 <table>
   <tr>
     <td align="center">
-      <img src="./images/jiwon.jpeg" width="180">
+      <img src="./images/jiwon.jpeg" width="130">
     </td>
     <td align="center">
-      <img src="./images/gukhee.jpeg" width="180">
+      <img src="./images/gukhee.jpeg" width="130">
     </td>
     <td align="center">
-      <img src="./images/yujung.jpeg" width="180">
+      <img src="./images/yujung.jpeg" width="130">
     </td>
   </tr>
 
   <tr>
-  <td align="center"><b>Frontend</b></td>
-  <td align="center"><b>Backend</b></td>
-  <td align="center"><b>AI</b></td>
-</tr>
+    <td align="center"><b>Frontend</b></td>
+    <td align="center"><b>Backend</b></td>
+    <td align="center"><b>AI</b></td>
+  </tr>
 
   <tr>
     <td align="center">이지원</td>
