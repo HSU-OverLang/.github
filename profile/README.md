@@ -26,13 +26,13 @@ OverLang은 단순히 번역 결과만 제공하지 않고, 영상 내용을 기
 <table>
   <tr>
     <td align="center">
-      <img src="./images/main.png" width="300">
+      <img src="./images/main.gif" width="300">
     </td>
     <td align="center">
       <img src="./images/upload.png" width="300">
     </td>
     <td align="center">
-      <img src="./images/dashboard.png" width="300">
+      <img src="./images/dashboard.gif" width="300">
     </td>
   </tr>
 
@@ -44,13 +44,13 @@ OverLang은 단순히 번역 결과만 제공하지 않고, 영상 내용을 기
 
   <tr>
     <td align="center">
-      <img src="./images/translate.png" width="300">
+      <img src="./images/translate.gif" width="300">
     </td>
     <td align="center">
-      <img src="./images/savedword.png" width="300">
+      <img src="./images/wordnote.gif" width="300">
     </td>
     <td align="center">
-      <img src="./images/mypage.png" width="300">
+      <img src="./images/mypage.gif" width="300">
     </td>
   </tr>
 
