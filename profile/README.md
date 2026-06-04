@@ -29,7 +29,7 @@ OverLang은 단순히 번역 결과만 제공하지 않고, 영상 내용을 기
       <img src="./images/main.gif" width="250">
     </td>
     <td align="center">
-      <img src="./images/upload.png" width="250">
+      <img src="./images/upload.gif" width="250">
     </td>
     <td align="center">
       <img src="./images/dashboard.gif" width="250">
